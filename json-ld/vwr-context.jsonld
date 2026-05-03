@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "vwr": "https://vwr.com/vocab/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Organization": "schema:Organization",
+    "Product": "schema:Product",
+    "Order": "schema:Order",
+    "Invoice": "schema:Invoice",
+
+    "LabSupply": {
+      "@id": "vwr:LabSupply",
+      "@type": "schema:Product"
+    },
+
+    "Reagent": {
+      "@id": "vwr:Reagent",
+      "@type": "schema:Product"
+    },
+
+    "Laboratory": {
+      "@id": "vwr:Laboratory",
+      "@type": "schema:Place"
+    },
+
+    "PurchaseOrder": {
+      "@id": "vwr:PurchaseOrder",
+      "@type": "schema:Order"
+    },
+
+    "catalogNumber": {
+      "@id": "vwr:catalogNumber",
+      "@type": "xsd:string"
+    },
+
+    "casNumber": {
+      "@id": "vwr:casNumber",
+      "@type": "xsd:string"
+    },
+
+    "name": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+
+    "description": {
+      "@id": "schema:description",
+      "@type": "xsd:string"
+    },
+
+    "sku": {
+      "@id": "schema:sku",
+      "@type": "xsd:string"
+    },
+
+    "price": {
+      "@id": "schema:price",
+      "@type": "xsd:decimal"
+    },
+
+    "priceCurrency": {
+      "@id": "schema:priceCurrency",
+      "@type": "xsd:string"
+    },
+
+    "manufacturer": {
+      "@id": "schema:manufacturer",
+      "@type": "@id"
+    },
+
+    "brand": {
+      "@id": "schema:brand",
+      "@type": "schema:Brand"
+    },
+
+    "orderDate": {
+      "@id": "schema:orderDate",
+      "@type": "xsd:dateTime"
+    },
+
+    "orderStatus": {
+      "@id": "schema:orderStatus",
+      "@type": "xsd:string"
+    }
+  }
+}

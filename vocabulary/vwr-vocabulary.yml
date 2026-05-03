@@ -1,0 +1,109 @@
+name: VWR International Vocabulary
+description: >-
+  Domain vocabulary for VWR International (Avantor) covering laboratory supply
+  distribution, eProcurement, life sciences supply chain, and scientific
+  equipment terminology.
+version: '1.0.0'
+created: '2026-05-03'
+modified: '2026-05-03'
+tags:
+  - Distribution
+  - Laboratory
+  - Life Sciences
+  - Procurement
+
+concepts:
+  - term: eProcurement
+    definition: >-
+      Electronic procurement systems that automate the purchasing workflow for
+      laboratory supplies. VWR supports multiple eProcurement methods including
+      OCI/PunchOut, EDI, and direct catalog integrations with enterprise procurement
+      platforms.
+    related:
+      - PunchOut
+      - EDI
+      - Purchase Order
+
+  - term: PunchOut Catalog (OCI)
+    definition: >-
+      An integration standard that allows buyers to access a supplier's product catalog
+      directly from their procurement application. OCI (Open Catalog Interface) enables
+      real-time pricing, availability, and product search against VWR's catalog from
+      within SAP, Coupa, Ariba, or other eProcurement platforms.
+    related:
+      - eProcurement
+      - Catalog
+
+  - term: EDI (Electronic Data Interchange)
+    definition: >-
+      Structured electronic document exchange standard used for transmitting purchase
+      orders, order acknowledgments, advance ship notices, and invoices. VWR supports
+      EDI transactions including 850 (Purchase Order), 855 (Order Acknowledgment),
+      856 (Advanced Ship Notice), and 810 (Invoice).
+    related:
+      - Purchase Order
+      - Invoice
+
+  - term: Laboratory Consumables
+    definition: >-
+      Single-use or limited-use laboratory items that are regularly replenished,
+      including pipette tips, tubes, filters, gloves, bottles, plates, and reagent
+      kits. Consumables represent a large share of recurring laboratory procurement.
+    related:
+      - Laboratory Supplies
+      - Reagents
+
+  - term: Reagents
+    definition: >-
+      Chemical or biological substances used in laboratory reactions, assays, and
+      experiments. VWR distributes reagents from major suppliers including Sigma-Aldrich,
+      ThermoFisher, and its own VWR brand chemicals.
+    related:
+      - Laboratory Consumables
+      - Life Sciences
+
+  - term: CAS Number
+    definition: >-
+      Chemical Abstracts Service registry number, a unique numerical identifier
+      assigned to chemical substances. CAS numbers are used as primary identifiers
+      for chemical products in laboratory catalogs and procurement systems.
+    related:
+      - Reagents
+      - Chemical
+
+  - term: Cold Chain
+    definition: >-
+      Temperature-controlled supply chain for temperature-sensitive products including
+      biological samples, vaccines, cell culture media, and certain reagents. VWR
+      provides cold chain logistics services for lab supply delivery.
+    related:
+      - Distribution
+      - Laboratory Supplies
+
+  - term: Catalog Number (Cat No)
+    definition: >-
+      A unique alphanumeric identifier assigned to each product in VWR's catalog.
+      Catalog numbers are used for product ordering, tracking, and integration in
+      eProcurement systems.
+    related:
+      - Laboratory Consumables
+      - Procurement
+
+  - term: Safety Data Sheet (SDS)
+    definition: >-
+      A document providing information on chemical products including hazard identification,
+      composition, handling and storage, first aid, and environmental disposal. VWR
+      provides SDS documents for all chemical products in compliance with GHS/OSHA
+      regulations.
+    related:
+      - Reagents
+      - Compliance
+
+  - term: Good Laboratory Practice (GLP)
+    definition: >-
+      A quality system for non-clinical laboratory studies ensuring data integrity
+      and reliability. VWR supplies GLP-compliant products and services for pharmaceutical
+      and regulatory testing environments.
+    related:
+      - Quality
+      - Life Sciences
