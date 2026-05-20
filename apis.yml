@@ -46,6 +46,8 @@ apis:
         url: https://www.vwr.com/store/content/externalContentPage.jsp?path=/content/en_US/ordering-purchasing/eProcurement.jsp
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/vwr
   - url: https://www.vwr.com
     type: Website
   - url: https://us.vwr.com/store/
