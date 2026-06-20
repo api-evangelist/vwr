@@ -10,7 +10,7 @@ description: >-
   reagents, instruments, and cold chain solutions. VWR/Avantor offers e-procurement
   integrations and eProcurement APIs to support laboratory supply chain automation
   for enterprise customers through EDI, OCI/PunchOut, and catalog integration.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Distribution
   - Laboratory
@@ -32,7 +32,7 @@ apis:
       like SAP Ariba, Coupa, Jaggaer, and Oracle Procurement Cloud. Enables automated
       purchase requisitions, order placement, and invoice processing for laboratory
       supplies.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanUrl: https://www.vwr.com/store/content/externalContentPage.jsp?path=/content/en_US/ordering-purchasing/eProcurement.jsp
     baseUrl: https://www.vwr.com
     tags:
