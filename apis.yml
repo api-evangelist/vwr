@@ -55,7 +55,7 @@ common:
   - url: https://www.avantorsciences.com/
     type: ParentCompany
   - url: https://www.vwr.com/store/content/externalContentPage.jsp?path=/content/en_US/ordering-purchasing/eProcurement.jsp
-    type: Integration
+    type: Integrations
   - url: vocabulary/vwr-vocabulary.yml
     type: Vocabulary
   - url: json-ld/vwr-context.jsonld
