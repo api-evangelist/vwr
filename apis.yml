@@ -10,7 +10,19 @@ description: >-
   reagents, instruments, and cold chain solutions. VWR/Avantor offers e-procurement
   integrations and eProcurement APIs to support laboratory supply chain automation
   for enterprise customers through EDI, OCI/PunchOut, and catalog integration.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vwr.png
 tags:
   - Distribution
   - Laboratory
@@ -18,33 +30,12 @@ tags:
   - Procurement
   - Scientific Supplies
 created: '2026-05-03'
-modified: '2026-05-03'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 kind: contract
 access: 3rd-Party
 position: Consuming
-apis:
-  - aid: vwr:vwr-eprocurement-api
-    name: VWR eProcurement Integration
-    description: >-
-      VWR's eProcurement integration supports OCI/PunchOut catalog connections and
-      EDI order transmission for enterprise customers using procurement platforms
-      like SAP Ariba, Coupa, Jaggaer, and Oracle Procurement Cloud. Enables automated
-      purchase requisitions, order placement, and invoice processing for laboratory
-      supplies.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanUrl: https://www.vwr.com/store/content/externalContentPage.jsp?path=/content/en_US/ordering-purchasing/eProcurement.jsp
-    baseUrl: https://www.vwr.com
-    tags:
-      - EDI
-      - eProcurement
-      - Integration
-      - Laboratory
-      - Procurement
-    properties:
-      - type: Documentation
-        url: https://www.vwr.com/store/content/externalContentPage.jsp?path=/content/en_US/ordering-purchasing/eProcurement.jsp
-
+apis: []
 common:
   - type: DomainSecurity
     url: security/vwr-domain-security.yml
