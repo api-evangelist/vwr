@@ -1,7 +1,9 @@
 ---
 title: Avantor to Acquire VWR for $6.4 Billion
 url: https://www.stblaw.com/about-us/news/view/2017/05/05/avantor-to-acquire-vwr-for-$6.4-billion
-date: '2026-05-25'
+published: '2017-05-05'
+date_basis: url-derived
+harvested: '2026-05-25'
 query: '"VWR" press release artificial intelligence'
 position: 1
 source: serpapi-google

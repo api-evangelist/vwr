@@ -1,7 +1,9 @@
 ---
 title: Avantor Completes Acquisition of VWR
 url: https://www.biospace.com/avantor-completes-acquisition-of-vwr
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"VWR" press release artificial intelligence'
 position: 3
 source: serpapi-google
