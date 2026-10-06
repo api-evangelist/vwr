@@ -41,13 +41,15 @@ tags:
   - Procurement
   - Scientific Supplies
 created: '2026-05-03'
-modified: '2026-07-25'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 kind: contract
 access: 3rd-Party
 position: Consuming
 apis: []
 common:
+  - url: https://www.vwr.com/blog/
+    type: Blog
   - type: DomainSecurity
     url: security/vwr-domain-security.yml
   - type: LinkedIn
