@@ -64,29 +64,110 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-VWR International, now part of Avantor, is a global distributor of laboratory supplies, chemicals, equipment, and services for the life sciences, pharmaceutical, biotechnology, and research industries. With over 180 years of history, VWR serves more than one million customers in over 30 countries. The company operates as Avantor's distribution and procurement platform, providing laboratory consumables, reagents, instruments, and cold chain solutions.
+VWR International, now part of Avantor, is a global distributor of laboratory supplies, chemicals, equipment, and services for the life sciences, pharmaceutical, biotechnology, and research industries. With over 180 years of history, VWR serves more than one million customers in over 30 countries. The company operates as Avantor's distribution and procurement platform, providing laboratory consumables, reagents, instruments, and cold chain solutions. VWR/Avantor offers e-procurement integrations and eProcurement APIs to support laboratory supply chain automation for enterprise customers through EDI, OCI/PunchOut, and catalog integration.
 
-VWR/Avantor offers e-procurement integrations for enterprise laboratory supply chain automation through EDI, OCI/PunchOut, and catalog integration.
+**Areas:** Distribution · Laboratory · Life Sciences · Procurement · Scientific Supplies
 
-- **Website:** [https://www.vwr.com](https://www.vwr.com)
-- **Store:** [https://us.vwr.com/store/](https://us.vwr.com/store/)
-- **Parent Company:** [https://www.avantorsciences.com/](https://www.avantorsciences.com/)
-- **eProcurement:** [VWR eProcurement Integration](https://www.vwr.com/store/content/externalContentPage.jsp?path=/content/en_US/ordering-purchasing/eProcurement.jsp)
+## VWR International (Avantor) on APIs.io
 
-## APIs
+Everything profiled for VWR International (Avantor) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/vwr/](https://apis.io/providers/vwr/)** — or go straight to one of the APIs or properties below.
 
-| Integration | Description |
-|-------------|-------------|
-| [VWR eProcurement Integration](https://www.vwr.com/store/content/externalContentPage.jsp?path=/content/en_US/ordering-purchasing/eProcurement.jsp) | OCI/PunchOut catalog and EDI order integration for enterprise procurement platforms |
+### Published properties
 
-## Vocabulary
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- [VWR Vocabulary](vocabulary/vwr-vocabulary.yml) - Domain vocabulary covering laboratory supply distribution, eProcurement, and life sciences supply chain
+#### JSON-LD (1)
 
-## Linked Data
+Linked-data contexts for the provider's vocabulary.
 
-- [VWR JSON-LD Context](json-ld/vwr-context.jsonld) - JSON-LD context mapping VWR concepts to schema.org vocabulary
+- [Vwr Context](https://apis.io/jsonld/vwr/vwr-context/)
 
-## Tags
+#### Vocabulary (1)
 
-`Distribution` `Laboratory` `Life Sciences` `Procurement` `Scientific Supplies`
+The provider's domain terms, defined.
+
+- [VWR International Vocabulary](https://apis.io/vocabularies/vwr/vwr-vocabulary/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Vwr Domain Security](https://apis.io/security/vwr/vwr-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Vwr Plans Pricing](https://apis.io/plans/vwr/vwr-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Vwr Rate Limits](https://apis.io/rate-limits/vwr/vwr-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Vwr Finops](https://apis.io/finops/vwr/vwr-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.vwr.com)
+- [Blog](https://www.vwr.com/blog/)
+
+## API Evangelist rating
+
+**Kin Score 13.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 10.7 |
+| Contract governance | 13.6 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 8.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/vwr/](https://apis.io/providers/vwr/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for VWR International (Avantor): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/vwr/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
